@@ -8,8 +8,8 @@
 ```javascript
 
 /** 
- * Created by RockeyCai on 16/2/22. 
- * 创建文件夹帮助类 
+ * Created byyujuan on 16/5/13. 
+ * 创建多层文件夹
  */  
   
 var fs = require("fs");  
@@ -47,9 +47,9 @@ module.exports.mkdirs = mkdirs;
 module.exports.mkdirsSync= mkdirsSync;  
   
 //调用  
-//mkdirsSync("./aa/bb/cc" , null);  
-//mkdirs("./aa/bb/cc", function (ee) {  
-//    console.log(ee)  
-//});  
+mkdirsSync("./aa/bb/cc" , null);  
+mkdirs("./aa/bb/cc", function (ee) {  
+    console.log(ee)  
+});  
 
 ```
