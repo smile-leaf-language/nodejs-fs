@@ -78,19 +78,21 @@ fs.mkdirpSync(path.join('a', 'b', 'c'));
 
 # nodejs二叉树遍历(深度优先和广度优先)
 
-/*   二叉树样子示例：
-   d
- /    \
-l      r
-/      / 
- g       h
- * */
- 
 ## 深度优先遍历
 
 #### javascript 代码
 
 ```javascript
+
+/*   二叉树样子示例：(这里的各项为文件夹以及子文件夹和文件分布)
+
+   d
+ /    \
+l      r
+/      / 
+ g       h
+ 
+ * */
 
 //深度优先遍历   二叉树
 
@@ -113,6 +115,7 @@ function tranverse(dir) {
 //调用
 tranverse("d");
 //输出d、d/l 、d/l/g、d/r、d/r/h
+
 ```
 
 
